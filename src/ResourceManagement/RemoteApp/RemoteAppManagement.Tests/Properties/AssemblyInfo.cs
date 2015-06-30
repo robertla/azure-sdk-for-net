@@ -1,4 +1,4 @@
-//
+﻿//
 // Copyright (c) Microsoft.  All rights reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,15 +14,18 @@
 //
 
 using System.Reflection;
-using System.Resources;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("Microsoft.Azure.Management.RemoteApp")]
-[assembly: AssemblyDescription("REST endpoint specification for Microsoft Azure RemoteApp service management.")]
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+[assembly: AssemblyTitle("Microsoft.Azure.Management.Automation.Tests")]
+[assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Microsoft.Azure.Management.RemoteApp")]
-[assembly: AssemblyCopyright("Copyright � Microsoft 2015")]
+[assembly: AssemblyProduct("Microsoft.Azure.Management.Automation.Tests")]
+[assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -32,7 +35,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("84D4FFB2-4A29-497E-99E8-035C29E20A6B")]
+[assembly: Guid("F541AA87-27D4-45E7-B78F-533AECB14D3D")]
 
 // Version information for an assembly consists of the following four values:
 //
@@ -43,6 +46,6 @@ using System.Runtime.InteropServices;
 //
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
-// [assembly: AssemblyVersion("0.9.0.0*")]
-[assembly: AssemblyVersion("0.9.0.0")]
+// [assembly: AssemblyVersion("1.0.*")]
+[assembly: AssemblyVersion("0.0.1.0")]
 [assembly: AssemblyFileVersion("0.0.1.0")]

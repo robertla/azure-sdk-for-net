@@ -58,7 +58,7 @@
     <!--Set this true only if you want to test the code sign workflow locally-->
     <DelaySign Condition =" '$(DelaySign)' == '' ">false</DelaySign>
     <Scope Condition=" '$(Scope)' == '' ">All</Scope>
-    <FxTargetList>portable;net40;net45</FxTargetList>
+    <FxTargetList>net45;portable;net40</FxTargetList>
     <FxTargetList Condition=" '$(Scope)' == 'authentication' ">net45</FxTargetList>
   </PropertyGroup>
 

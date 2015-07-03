@@ -11,6 +11,7 @@
     <Compile Include="Tests\CollectionTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RemoteAppTestBase.cs" />
+    <Compile Include="Tests\PublishingTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="SessionRecords\Microsoft.Azure.Management.RemoteApp.Tests.CollectionTests\GetCollectionsTest.json">

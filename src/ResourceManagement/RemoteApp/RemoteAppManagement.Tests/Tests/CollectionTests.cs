@@ -24,7 +24,7 @@ namespace Microsoft.Azure.Management.RemoteApp.Tests
                 undoContext.Start();
                 raClient = GetClient();
 
-                collections = raClient.Collection.List("Microsoft.RemoteApp");
+                collections = raClient.Collection.List("Default-RemoteApp-WestUS");
 
                 Assert.NotNull(collections);
                 Assert.Equal(HttpStatusCode.OK, collections.StatusCode);
